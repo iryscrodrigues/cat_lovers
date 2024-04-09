@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Style+Script&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/premium-photo/happy-cat-white-background-ai-generated-image_20029-1958.jpg");
+  background-repeat: no-repeat;
+  background-position: 225px 90px;
+  background-size: 550px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 5em;
+}
+
+h2 {
+  font-family: "Taviraj", serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.wiki,
+.language {
+  display: block;
+  justify-content: center;
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.icon-pet,
+.icon-speak {
+  width: 50px;
+}
+
+.icon-pet:hover,
+.icon-speak:hover {
+  width: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 250px;
+}
+
+.title-1,
+.title-2 {
+  justify-content: center;
+  font-family: "Taviraj", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.7em;
+}
+
+li {
+  list-style: none;
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+.videoCat {
+  display: block;
+  margin: 100px auto 0; /* Alterado para centralizar verticalmente e ajustar as margens */
+  width: 50%;
+  border-radius: 30px;
+}
+
+.formCat {
+  margin: 20px;
+  font-family: "Taviraj", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+button {
+  padding: 5px;
+  border-radius: 100px;
+}
+
+button {
+  background-color: #000000;
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.5em;
+  color: #ffffff;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #37397f;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000;
+  font-size: 1em;
+  color: #fff;
+}
+
+a {
+  color: #845ec2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d65db1;
+}
